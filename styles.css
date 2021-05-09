@@ -42,3 +42,31 @@ footer {
 .icon{
   color: #C04545;
 }
+
+.btn {
+  background: #e0484d;
+  background-image: -webkit-linear-gradient(top, #e0484d, #a11e1e);
+  background-image: -moz-linear-gradient(top, #e0484d, #a11e1e);
+  background-image: -ms-linear-gradient(top, #e0484d, #a11e1e);
+  background-image: -o-linear-gradient(top, #e0484d, #a11e1e);
+  background-image: linear-gradient(to bottom, #e0484d, #a11e1e);
+  -webkit-border-radius: 41;
+  -moz-border-radius: 41;
+  border-radius: 41px;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 23px 15px 23px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #c93267;
+  background-image: -webkit-linear-gradient(top, #c93267, #9c2261);
+  background-image: -moz-linear-gradient(top, #c93267, #9c2261);
+  background-image: -ms-linear-gradient(top, #c93267, #9c2261);
+  background-image: -o-linear-gradient(top, #c93267, #9c2261);
+  background-image: linear-gradient(to bottom, #c93267, #9c2261);
+  text-decoration: none;
+}
